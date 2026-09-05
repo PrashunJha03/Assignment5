@@ -53,7 +53,7 @@ class CurrentAccount extends BankAccount
 		else
 			System.out.println("Minimum Balance not Maintained");
 	}
-	
+	 
 	void displayCurrentAccount()
 	{
 		System.out.println(accountNo+" "+customerName+" "+balance+" "+minimumBalance);
