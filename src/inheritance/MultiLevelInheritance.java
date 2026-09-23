@@ -26,8 +26,6 @@ class Employee1 extends Person
 		this.empId = empId;
 		this.salary = salary;
 	}
-	
-
 }
 
 
@@ -52,11 +50,6 @@ class Manager1 extends Employee1
 		System.out.println(" "+salary);
 	}
 }
-
-
-
-
-
 
 
 
