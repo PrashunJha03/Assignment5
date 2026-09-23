@@ -14,8 +14,6 @@ class BankAccount
 	}
 }
 
-
-
 class SavingsAccount extends BankAccount
 {
 	float interestRate;
@@ -59,8 +57,6 @@ class CurrentAccount extends BankAccount
 		System.out.println(accountNo+" "+customerName+" "+balance+" "+minimumBalance);
 	}
 }
-
-
 
 
 public class HierarchicalInheritance {
